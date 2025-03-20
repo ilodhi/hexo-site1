@@ -102,3 +102,20 @@ theme: vivia
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ""
+
+backend:
+  name: github
+  repo: https://github.com/ilodhi/hexo-site1
+  branch: main
+  auth_scope: public_repo # or repo for private repos
+  app_id: Iv23liU95XsBxjJeqLrA
+  api_root: https://api.github.com
+  base_url: https://github.com
+  auth_endpoint: login/oauth/authorize
+
+symbols_count_time:
+  symbols: true
+  time: true
+  total_symbols: true
+  total_time: true
+  exclude_codeblock: false
